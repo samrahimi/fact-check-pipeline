@@ -104,18 +104,7 @@ app.get('/api/run-pipeline', (req, res) => {
     'Connection': 'keep-alive'
   });
 
-  const child = spawn('node', ['flexible_pipeline.js',"./models/"+model+".js", clientId, prompt], {
-    env: {
-      ...process.env,
-      OPENAI_API_KEY: process.env.OPENAI_API_KEY,
-      OPENROUTER_API_KEY: process.env.OPENROUTER_API_KEY,
-      ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
-      GOOGLE_AI_API_KEY: process.env.GOOGLE_AI_API_KEY,
-      MISTRAL_API_KEY: process.env.MISTRAL_API_KEY,
-      PERPLEXITY_API_KEY:process.env.PERPLEXITY_API_KEY
-
-    }
-  });
+  const child = spawn('node', ['flexible_pipeline.js',"./models/"+model+".js", clientId, prompt]);
 
   child.stdout.on('data', (data) => {
     res.write(data);
@@ -128,7 +117,7 @@ app.get('/api/run-pipeline', (req, res) => {
 
   child.on('close', (code) => {
     //res.write(`data: Process exited with code ${code}\n\n`);
-    res.write("\n\n[done]")
+    //res.write("\n\n[done]")
     res.end();
   });
 })
@@ -145,18 +134,7 @@ app.post('/api/run-pipeline', (req, res) => {
     'Connection': 'keep-alive'
   });
 
-  const child = spawn('node', ['flexible_pipeline.js',"./models/"+model+".js", clientId, prompt], {
-    env: {
-      ...process.env,
-      OPENAI_API_KEY: process.env.OPENAI_API_KEY,
-      OPENROUTER_API_KEY: process.env.OPENROUTER_API_KEY,
-      ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
-      GOOGLE_AI_API_KEY: process.env.GOOGLE_AI_API_KEY,
-      MISTRAL_API_KEY: process.env.MISTRAL_API_KEY,
-      PERPLEXITY_API_KEY:process.env.PERPLEXITY_API_KEY
-
-    }
-  });
+  const child = spawn('node', ['flexible_pipeline.js',"./models/"+model+".js", clientId, prompt])
 
   child.stdout.on('data', (data) => {
     res.write(data);
@@ -169,7 +147,7 @@ app.post('/api/run-pipeline', (req, res) => {
 
   child.on('close', (code) => {
     //res.write(`data: Process exited with code ${code}\n\n`);
-    res.write("\n\n[done]")
+    //res.write("\n\n[done]")
     res.end();
   });
 });

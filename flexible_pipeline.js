@@ -64,14 +64,6 @@ async function runPipeline(configPath, userRequest, sessionId, customProjectId, 
   // Generate a unique project ID
   PROJECT_ID = (customProjectId != null && isSubPipeline) ? customProjectId :
    'project-' + Date.now().toString(36) + Math.random().toString(36).substr(2);
-  // Create a new folder for the project
-
-  //a sub pipeline will send all keyed context updates to the original client 
-  //same as a master pipeline, on the same project id and session id. 
-
-  //this can present a problem if the subpipeline's keys conflict with that of the master
-  //for instance, the sub's "user_request" is going to be whatever the input was for the sub
-  //and typically its undesirable to clobber the master's user_request with the sub's user_request
 
   //this is a known issue and will be addressed in a future release
   //for now we just include a flag to indicate that we are a subpipeline when sending updates
