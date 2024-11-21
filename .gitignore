@@ -1,0 +1,5 @@
+node_modules
+outputs
+temp
+.env
+keystore.json

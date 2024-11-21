@@ -1,0 +1,169 @@
+{
+    "stories": [
+        {
+            "headline": "2024 US Election: Trump Suggests Government Shutdown",
+            "topic": "Election 2024",
+            "questions": [
+                "What specific demands is Donald Trump making that could lead to a government shutdown?",
+                "How have other Republican politicians reacted to Donald Trump's suggestion of a government shutdown?",
+                "What is the potential impact of a government shutdown on the 2024 United States presidential election?",
+                "Could Donald Trump's stance on a government shutdown alienate some of his potential voters?",
+                "What is the historical precedent for United States presidential candidates suggesting or causing government shutdowns?"
+            ]
+        },
+        {
+            "headline": "Election Security Briefings: Officials Urge Confidence",
+            "topic": "Election 2024/Election Security",
+            "questions": [
+                "What specific measures are election officials taking to ensure the security of the 2024 United States election?",
+                "What are the biggest threats to the security of the 2024 United States election, according to election officials?",
+                "How are election officials addressing concerns about foreign interference in the 2024 United States election?",
+                "What steps can voters take to protect themselves from disinformation and misinformation related to the 2024 election?",
+                "How can the public be sure that the results of the 2024 United States election are accurate and trustworthy?"
+            ]
+        },
+        {
+            "headline": "Harris Criticizes Trump for Politicizing Arlington National Cemetery",
+            "topic": "Election 2024",
+            "questions": [
+                "What specific actions by Donald Trump led Kamala Harris to accuse him of politicizing Arlington National Cemetery?",
+                "How have other politicians and veterans reacted to Donald Trump's actions at Arlington National Cemetery?",
+                "What is the historical context of using Arlington National Cemetery for political purposes?",
+                "Is Kamala Harris's criticism of Donald Trump a valid attack or an attempt to exploit a sensitive issue related to Arlington National Cemetery?",
+                "What impact could this controversy surrounding Donald Trump's actions at Arlington National Cemetery have on voters' perceptions of Donald Trump and Kamala Harris?"
+            ]
+        },
+        {
+            "headline": "Robert F. Kennedy Jr. Suspends Presidential Bid, Backs Trump",
+            "topic": "Election 2024",
+            "questions": [
+                "What factors led Robert F. Kennedy Jr. to suspend his 2024 presidential campaign and endorse Donald Trump?",
+                "How significant is Robert F. Kennedy Jr.'s endorsement for Donald Trump's 2024 presidential campaign?",
+                "Could Robert F. Kennedy Jr.'s supporters switch their allegiance from Robert F. Kennedy Jr. to Donald Trump in the 2024 election?",
+                "What impact could Robert F. Kennedy Jr.'s endorsement of Donald Trump have on the dynamics of the third-party movement in the 2024 election?",
+                "Does Robert F. Kennedy Jr.'s endorsement of Donald Trump signal a broader shift in the political landscape of the United States?"
+            ]
+        },
+        {
+            "headline": "China Ramps Up Disinformation Efforts Ahead of 2024 Election",
+            "topic": "Election 2024/Election Security/Foreign Interference",
+            "questions": [
+                "What specific tactics is the Chinese government's alleged disinformation campaign, \"Spamoflage\", using to spread disinformation related to the 2024 United States election?",
+                "What are the goals of the Chinese government's alleged disinformation campaign related to the 2024 United States election?",
+                "How effective are these disinformation efforts by the Chinese government likely to be in influencing the 2024 United States election?",
+                "What steps are being taken by United States officials to counter the Chinese government's disinformation related to the 2024 United States election?",
+                "What is the potential impact of foreign disinformation, specifically from the Chinese government, on the outcome of the 2024 United States election?"
+            ]
+        },
+        {
+            "headline": "First Presidential Debate Set as Harris and Trump Engage in Tight Race",
+            "topic": "Election 2024",
+            "questions": [
+                "What are the key issues likely to be debated in the first 2024 presidential debate between Kamala Harris and Donald Trump?",
+                "How are Kamala Harris and Donald Trump preparing for the first 2024 presidential debate?",
+                "What are the strengths and weaknesses of each candidate, Kamala Harris and Donald Trump, as debaters?",
+                "What impact could the first 2024 presidential debate have on the polls for the 2024 presidential election?",
+                "What are the expectations and predictions for the first 2024 presidential debate from political analysts?"
+            ]
+        },
+        {
+            "headline": "Democrats Sue Over Georgia Election Rules",
+            "topic": "Election 2024/Voting Rights",
+            "questions": [
+                "What specific rules adopted by Georgia's State Election Board are the Democrats challenging in their lawsuit?",
+                "What are the Democrats' legal arguments against the rules adopted by Georgia's State Election Board?",
+                "How could these rules challenged by the Democrats potentially affect the outcome of the 2024 election in Georgia?",
+                "What is the likelihood of the Democrats' lawsuit against the rules adopted by Georgia's State Election Board succeeding?",
+                "What is the broader context of voting rights litigation in the United States?"
+            ]
+        },
+        {
+            "headline": "Trump Angers Abortion Opponents with Comments on Florida Ban",
+            "topic": "Election 2024/Abortion",
+            "questions": [
+                "What specific comments did Donald Trump make about the Florida abortion ban?",
+                "How have abortion opponents reacted to Donald Trump's comments on the Florida abortion ban?",
+                "Could Donald Trump's stance on abortion hurt his support among evangelical voters in the 2024 election?",
+                "What is the potential impact of the abortion issue on the 2024 United States presidential election?",
+                "How do Donald Trump's recent comments on abortion align with his previous statements on abortion?"
+            ]
+        },
+        {
+            "headline": "U.S. Intelligence Warns of Foreign Interference in 2024 Election",
+            "topic": "Election 2024/Election Security/Foreign Interference",
+            "questions": [
+                "What specific countries are United States intelligence agencies identifying as posing the biggest threats of interference in the 2024 United States election?",
+                "What methods of interference in the 2024 United States election are United States intelligence agencies concerned about?",
+                "What steps are United States officials taking to prevent and mitigate foreign interference in the 2024 United States election?",
+                "How confident are United States intelligence agencies in their ability to protect the 2024 United States election from foreign interference?",
+                "What is the potential impact of foreign interference on the public's trust in the results of the 2024 United States election?"
+            ]
+        },
+        {
+            "headline": "CISA Officials Highlight Enhanced Security Measures",
+            "topic": "Election 2024/Election Security",
+            "questions": [
+                "What are the specific security measures being implemented by the Cybersecurity and Infrastructure Security Agency (CISA) to protect the 2024 United States election?",
+                "How effective are these measures implemented by the Cybersecurity and Infrastructure Security Agency (CISA) likely to be in preventing cyberattacks and other threats to the 2024 United States election?",
+                "Are there any concerns about the adequacy of the security measures implemented by the Cybersecurity and Infrastructure Security Agency (CISA) to protect the 2024 United States election?",
+                "How are election officials being trained by the Cybersecurity and Infrastructure Security Agency (CISA) to address security threats to the 2024 United States election?",
+                "What is the level of coordination between federal, state, and local officials on election security related to the 2024 United States election?"
+            ]
+        },
+        {
+            "headline": "Harris-Walz Campaign Sees Surge in Donations",
+            "topic": "Election 2024/Campaign Finance",
+            "questions": [
+                "What factors contributed to the surge in donations for the Kamala Harris and Tim Walz 2024 presidential campaign?",
+                "How does this surge in donations for the Kamala Harris and Tim Walz 2024 presidential campaign compare to previous fundraising efforts by the campaign?",
+                "How will the Kamala Harris and Tim Walz 2024 presidential campaign use the funds that they have recently received?",
+                "What is the overall financial picture of the Kamala Harris and Tim Walz 2024 presidential campaign compared to the financial pictures of their opponents?",
+                "What does this recent surge in donations for the Kamala Harris and Tim Walz 2024 presidential campaign suggest about the level of support for the Kamala Harris and Tim Walz ticket?"
+            ]
+        },
+        {
+            "headline": "Historians Collect Items from 2024 Conventions for Future Generations",
+            "topic": "Election 2024/History",
+            "questions": [
+                "What specific items are historians collecting from the 2024 political party conventions?",
+                "How were these items being collected from the 2024 political party conventions selected by historians?",
+                "What is the historical significance of the items that historians are collecting from the 2024 political party conventions?",
+                "How will these items collected from the 2024 political party conventions by historians be used to educate future generations about the 2024 United States presidential election?",
+                "What insights can be gained from studying the artifacts of political campaigns, such as the items being collected from the 2024 political party conventions?"
+            ]
+        },
+        {
+            "headline": "CBS News Fact-Checks Comments from Democratic National Convention",
+            "topic": "Election 2024/Media",
+            "questions": [
+                "What specific claims made at the 2024 Democratic National Convention were fact-checked by CBS News?",
+                "What were the findings of the CBS News fact-checks of the claims made at the 2024 Democratic National Convention?",
+                "How did the speakers at the 2024 Democratic National Convention respond to the CBS News fact-checks of the claims they made?",
+                "What is the role of media organizations, such as CBS News, in fact-checking political discourse, specifically during election campaigns?",
+                "How can voters distinguish between accurate and inaccurate information during an election campaign, such as the 2024 United States presidential election?"
+            ]
+        },
+        {
+            "headline": "Democrats Seek to Block Georgia Election Rules",
+            "topic": "Election 2024/Voting Rights",
+            "questions": [
+                "What specific rules are the Democrats seeking to block in Georgia?",
+                "What are the legal arguments being used by the Democrats to challenge these rules in Georgia?",
+                "What is the potential impact of the rules that the Democrats are seeking to block on voter turnout and access to the ballot in Georgia?",
+                "What is the timeline for the Democrats' legal challenge to the rules in Georgia?",
+                "How does this legal challenge by the Democrats to the rules in Georgia fit into the broader debate about voting rights in Georgia and the United States?"
+            ]
+        },
+        {
+            "headline": "LULAC Requests DOJ Investigation into Voting Rights Violations",
+            "topic": "Election 2024/Voting Rights",
+            "questions": [
+                "What specific allegations of voting rights violations has the League of United Latin American Citizens (LULAC) made against the Texas Attorney General's office?",
+                "What evidence has the League of United Latin American Citizens (LULAC) presented to support these allegations against the Texas Attorney General's office?",
+                "How has the Texas Attorney General's office responded to the allegations of voting rights violations made by the League of United Latin American Citizens (LULAC)?",
+                "What is the likelihood that the Department of Justice (DOJ) will open an investigation into the allegations of voting rights violations made by the League of United Latin American Citizens (LULAC)?",
+                "What is the potential impact of a Department of Justice (DOJ) investigation on voting rights in Texas?"
+            ]
+        }
+    ]
+}

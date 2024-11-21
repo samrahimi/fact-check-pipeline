@@ -1,0 +1,443 @@
+[
+    {
+      "content": "Why did she go there?",
+      "context": "Mary needed to buy a new dress for the party. The old one was stained with wine. She went to the mall to find a replacement.",
+      "rewritten_content": "Why did Mary go to the mall?"
+    },
+    {
+      "content": "Was it expensive?",
+      "context": "John bought a new car last week. It was a red sports car. He paid cash for the car.",
+      "rewritten_content": "Was the red sports car that John bought expensive?"
+    },
+    {
+      "content": "How did they react?",
+      "context": "The team lost the championship game. The players were devastated. The coach tried to console them.",
+      "rewritten_content": "How did the players react to losing the championship game?"
+    },
+    {
+      "content": "What did the company do?",
+      "context": "The company faced a major scandal. The CEO was accused of fraud. The company's stock price plummeted.",
+      "rewritten_content": "What did the company do in response to the scandal and the CEO being accused of fraud?"
+    },
+    {
+      "content": "Is he still in office?",
+      "context": "The president gave a controversial speech. Many people criticized the speech. Some called for the president's resignation.",
+      "rewritten_content": "Is the president who gave the controversial speech still in office?"
+    },
+    {
+      "content": "What was the outcome?",
+      "context": "Two countries were engaged in a border dispute. They held talks to resolve the issue. The talks lasted for several weeks.",
+      "rewritten_content": "What was the outcome of the talks between the two countries engaged in the border dispute?"
+    },
+    {
+      "content": "How did it affect the economy?",
+      "context": "The government implemented a new tax policy. The policy was designed to stimulate economic growth. Some economists criticized the policy.",
+      "rewritten_content": "How did the government's new tax policy, designed to stimulate economic growth, affect the economy?"
+    },
+    {
+      "content": "What were the main arguments?",
+      "context": "A new law was being debated in parliament. The law proposed stricter regulations on gun ownership. There were strong opinions on both sides of the issue.",
+      "rewritten_content": "What were the main arguments for and against the new law proposing stricter regulations on gun ownership that was being debated in parliament?"
+    },
+    {
+      "content": "Did they reach an agreement?",
+      "context": "The union leaders met with company management. They were negotiating a new contract. The negotiations were tense at times.",
+      "rewritten_content": "Did the union leaders and company management reach an agreement during their negotiations for a new contract?"
+    },
+    {
+      "content": "What were the long-term consequences?",
+      "context": "A major hurricane hit the coastal region. The hurricane caused widespread damage. Thousands of people were displaced.",
+      "rewritten_content": "What were the long-term consequences of the major hurricane that hit the coastal region and caused widespread damage?"
+    },
+    {
+      "content": "Who was responsible for the investigation?",
+      "context": "A plane crash occurred in a remote area. The cause of the crash was unknown. Authorities launched an investigation.",
+      "rewritten_content": "Who was responsible for the investigation into the plane crash that occurred in a remote area?"
+    },
+    {
+      "content": "What was their reaction?",
+      "context": "Scientists announced a major breakthrough in cancer research. The discovery could lead to new treatments. Patients and their families were hopeful.",
+      "rewritten_content": "What was the reaction of patients and their families to the announcement of a major breakthrough in cancer research by scientists?"
+    },
+    {
+      "content": "How did it impact the election?",
+      "context": "A political scandal erupted just weeks before the election. The scandal involved a leading candidate. The candidate denied any wrongdoing.",
+      "rewritten_content": "How did the political scandal involving a leading candidate that erupted just weeks before the election impact the election?"
+    },
+    {
+      "content": "What were the key findings?",
+      "context": "Researchers conducted a study on the effects of social media. The study involved thousands of participants. The results were published in a leading journal.",
+      "rewritten_content": "What were the key findings of the study conducted by researchers on the effects of social media, which involved thousands of participants?"
+    },
+    {
+      "content": "Was it successful?",
+      "context": "The government launched a new initiative to combat poverty. The initiative involved providing job training and education. The program was evaluated after one year.",
+      "rewritten_content": "Was the government's new initiative to combat poverty, which involved providing job training and education, successful after one year?" 
+    },
+    {
+      "content": "What is the current status?",
+      "context": "The volcano erupted unexpectedly. The eruption forced thousands to evacuate. Scientists are monitoring the situation closely.",
+      "rewritten_content": "What is the current status of the volcano that erupted unexpectedly and forced thousands to evacuate?"
+    },
+    {
+      "content": "What are the potential risks?",
+      "context": "A new technology is being developed that could revolutionize transportation. The technology involves self-driving vehicles. Some experts have raised safety concerns.",
+      "rewritten_content": "What are the potential risks associated with the new technology involving self-driving vehicles that is being developed and could revolutionize transportation?"
+    },
+    {
+      "content": "How did this affect her career?",
+      "context": "The actress won an award for her performance in the film. The film was a critical and commercial success. She received numerous offers for new roles.",
+      "rewritten_content": "How did winning an award for her performance in the critically and commercially successful film affect the actress's career?"
+    },
+    {
+      "content": "What was the public response?",
+      "context": "The artist unveiled a controversial new sculpture. The sculpture depicted a historical figure in a provocative way. It sparked a heated debate.",
+      "rewritten_content": "What was the public response to the artist's controversial new sculpture depicting a historical figure in a provocative way?"
+    },
+    {
+      "content": "What were the contributing factors?",
+      "context": "The stock market experienced a sudden crash. Investors panicked and sold their shares. Several factors contributed to the crash.",
+      "rewritten_content": "What were the contributing factors to the sudden stock market crash that caused investors to panic and sell their shares?"
+    },
+    {
+      "content": "How did they address the problem?",
+      "context": "The city faced a severe water shortage. The mayor announced restrictions on water usage. Officials urged residents to conserve water.",
+      "rewritten_content": "How did the city address the severe water shortage, including the actions taken by the mayor and officials?"
+    },
+    {
+      "content": "What were the implications for the future?",
+      "context": "Scientists discovered a new species of dinosaur. The fossil was found in a remote part of the desert. The discovery provided new insights into the evolution of dinosaurs.",
+      "rewritten_content": "What were the implications of the discovery of a new species of dinosaur, whose fossil was found in a remote part of the desert, for the future understanding of dinosaur evolution?"
+    },
+    {
+      "content": "Did it achieve its goals?",
+      "context": "The organization launched a fundraising campaign. The campaign aimed to raise money for a new hospital. The campaign ran for several months.",
+      "rewritten_content": "Did the organization's fundraising campaign, which aimed to raise money for a new hospital and ran for several months, achieve its goals?"
+    },
+    {
+      "content": "What were the main challenges?",
+      "context": "The explorers embarked on an expedition to the North Pole. The journey was fraught with danger. They faced extreme weather conditions.",
+      "rewritten_content": "What were the main challenges faced by the explorers who embarked on a dangerous expedition to the North Pole, particularly regarding weather conditions?"
+    },
+    {
+      "content": "How did this impact their relationship?",
+      "context": "The couple had a major disagreement. They argued about their finances. They decided to seek counseling.",
+      "rewritten_content": "How did the major disagreement about finances, which led them to seek counseling, impact the couple's relationship?"
+    },
+    {
+      "content": "What was the significance of this event?",
+      "context": "The country celebrated its independence day. There were parades and fireworks displays. The event marked a historic milestone.",
+      "rewritten_content": "What was the significance of the country's independence day celebration, which included parades and fireworks displays, in relation to its historical milestones?"
+    },
+    {
+      "content": "Did it have a positive or negative impact?",
+      "context": "The company introduced a new product. The product was aimed at a younger audience. Sales were initially slow.",
+      "rewritten_content": "Did the introduction of the new product, aimed at a younger audience, have a positive or negative impact on the company, especially considering the initial sales figures?"
+    },
+    {
+      "content": "What were the underlying causes?",
+      "context": "The conflict between the two groups escalated. Violence broke out in several cities. There were deep-seated tensions between the groups.",
+      "rewritten_content": "What were the underlying causes of the escalation of the conflict between the two groups, which resulted in violence breaking out in several cities?"
+    },
+    {
+      "content": "How did the media portray the situation?",
+      "context": "A major protest took place in the capital city. The protesters demanded political reforms. The media coverage of the protest was extensive.",
+      "rewritten_content": "How did the media portray the major protest that took place in the capital city, where protesters demanded political reforms?"
+    },
+    {
+      "content": "What were the alternative solutions?",
+      "context": "The engineers faced a technical problem. The problem threatened to delay the project. They considered several different solutions.",
+      "rewritten_content": "What were the alternative solutions considered by the engineers to address the technical problem that threatened to delay the project?"
+    },
+    {
+      "content": "How did it affect her reputation?",
+      "context": "The politician made a controversial statement. The statement was widely criticized. She later apologized for her remarks.",
+      "rewritten_content": "How did the controversial statement made by the politician, for which she later apologized, affect her reputation, especially considering the widespread criticism it received?"
+    },
+    {
+      "content": "What was the role of technology?",
+      "context": "The company underwent a major transformation. The transformation involved implementing new technologies. The goal was to improve efficiency.",
+      "rewritten_content": "What was the role of technology in the company's major transformation, which aimed to improve efficiency through the implementation of new technologies?"
+    },
+    {
+      "content": "Were there any unintended consequences?",
+      "context": "The government passed a new law to reduce crime. The law imposed harsher penalties for offenders. Some argued that the law had unintended consequences.",
+      "rewritten_content": "Were there any unintended consequences of the new law passed by the government to reduce crime, which imposed harsher penalties for offenders?"
+    },
+    {
+      "content": "How did the international community respond?",
+      "context": "A humanitarian crisis unfolded in a war-torn country. Millions of people were displaced. Aid agencies appealed for international assistance.",
+      "rewritten_content": "How did the international community respond to the humanitarian crisis that unfolded in a war-torn country, which resulted in the displacement of millions of people and appeals for assistance from aid agencies?"
+    },
+    {
+      "content": "What were the lessons learned?",
+      "context": "The project encountered numerous setbacks. The project was eventually completed. The team conducted a review to identify lessons learned.",
+      "rewritten_content": "What were the lessons learned from the project, which encountered numerous setbacks but was eventually completed, as identified in the team's review?"
+    },
+    {
+      "content": "How did this affect the local community?",
+      "context": "A factory closed down in a small town. The closure resulted in job losses. The town's economy suffered.",
+      "rewritten_content": "How did the closure of the factory, which resulted in job losses, affect the local community and its economy in the small town?"
+    },
+    {
+      "content": "What was the historical context?",
+      "context": "A major historical event took place. The event shaped the course of the nation. Historians have debated the significance of the event.",
+      "rewritten_content": "What was the historical context surrounding the major historical event that shaped the course of the nation and has been debated by historians for its significance?"
+    },
+    {
+      "content": "Did it lead to any social changes?",
+      "context": "A new social movement emerged. The movement advocated for equal rights. The movement gained momentum over time.",
+      "rewritten_content": "Did the emergence of the new social movement, which advocated for equal rights and gained momentum over time, lead to any social changes?"
+    },
+    {
+      "content": "What were the ethical considerations?",
+      "context": "Scientists conducted a controversial experiment. The experiment involved genetic engineering. The experiment raised ethical concerns.",
+      "rewritten_content": "What were the ethical considerations surrounding the controversial experiment conducted by scientists, which involved genetic engineering and raised ethical concerns?"
+    },
+    {
+      "content": "How did it contribute to scientific understanding?",
+      "context": "A new scientific discovery was made. The discovery challenged existing theories. The discovery opened up new avenues for research.",
+      "rewritten_content": "How did the new scientific discovery, which challenged existing theories, contribute to scientific understanding and open up new avenues for research?"
+    },
+    {
+      "content": "What were the environmental impacts?",
+      "context": "A new industrial project was proposed. The project involved building a large dam. Environmental groups expressed concerns about the project's impact.",
+      "rewritten_content": "What were the environmental impacts of the proposed new industrial project, which involved building a large dam and raised concerns from environmental groups?"
+    },
+    {
+      "content": "How did it affect public opinion?",
+      "context": "A celebrity made a public statement about a political issue. The statement generated a lot of discussion. Public opinion was divided on the issue.",
+      "rewritten_content": "How did the public statement made by the celebrity about a political issue, which generated a lot of discussion, affect public opinion, especially considering the divided views on the issue?"
+    },
+    {
+      "content": "What were the economic benefits?",
+      "context": "The city hosted a major sporting event. The event attracted thousands of visitors. The event boosted the local economy.",
+      "rewritten_content": "What were the economic benefits of the city hosting the major sporting event, which attracted thousands of visitors and boosted the local economy?"
+    },
+    {
+      "content": "Was it a turning point in history?",
+      "context": "A significant battle was fought. The battle resulted in a decisive victory. The battle changed the course of the war.",
+      "rewritten_content": "Was the significant battle that resulted in a decisive victory a turning point in history, especially considering its impact on the course of the war?"
+    },
+    {
+      "content": "How did it influence artistic expression?",
+      "context": "A new artistic movement emerged. The movement rejected traditional styles. The movement influenced generations of artists.",
+      "rewritten_content": "How did the new artistic movement, which rejected traditional styles, influence artistic expression across generations of artists?"
+    },
+    {
+      "content": "What were the cultural implications?",
+      "context": "A new technology was introduced. The technology changed the way people communicated. The technology had a profound impact on society.",
+      "rewritten_content": "What were the cultural implications of the introduction of the new technology, which changed the way people communicated and had a profound impact on society?"
+    },
+    {
+      "content": "Did it lead to any political reforms?",
+      "context": "A series of protests took place. The protesters demanded greater democracy. The government responded to the protests.",
+      "rewritten_content": "Did the series of protests, where protesters demanded greater democracy and elicited a response from the government, lead to any political reforms?"
+    },
+    {
+      "content": "What were the educational benefits?",
+      "context": "A new educational program was implemented. The program focused on developing critical thinking skills. The program was evaluated after one year.",
+      "rewritten_content": "What were the educational benefits of the new educational program, which focused on developing critical thinking skills and was evaluated after one year?"
+    },
+    {
+      "content": "How did it affect the healthcare system?",
+      "context": "A new medical treatment was developed. The treatment was effective in treating a serious illness. The treatment was expensive.",
+      "rewritten_content": "How did the development of the new medical treatment, which was effective in treating a serious illness but also expensive, affect the healthcare system?"
+    },
+    {
+      "content": "What were the challenges faced by the researchers?",
+      "context": "Scientists conducted a groundbreaking study. The study involved collecting data from remote locations. The study faced numerous challenges.",
+      "rewritten_content": "What were the challenges faced by the scientists who conducted the groundbreaking study, which involved collecting data from remote locations?"
+    },
+    {
+      "content": "How did it shape the future of the industry?",
+      "context": "A major technological innovation occurred. The innovation disrupted the existing industry. The innovation led to the creation of new businesses.",
+      "rewritten_content": "How did the major technological innovation, which disrupted the existing industry and led to the creation of new businesses, shape the future of the industry?"
+    },
+    {
+      "content": "What were the social and economic consequences?",
+      "context": "A natural disaster struck a densely populated area. The disaster caused widespread destruction. The disaster had a significant impact on the region.",
+      "rewritten_content": "What were the social and economic consequences of the natural disaster that struck a densely populated area, causing widespread destruction and having a significant impact on the region?"
+    },
+    {
+      "content": "How did it influence public policy?",
+      "context": "A scientific study revealed a link between pollution and health problems. The study's findings were widely publicized. The government responded by implementing new regulations.",
+      "rewritten_content": "How did the scientific study that revealed a link between pollution and health problems, whose findings were widely publicized, influence public policy, particularly regarding the government's implementation of new regulations?"
+    },
+    {
+      "content": "What were the long-term effects on the environment?",
+      "context": "A major oil spill occurred in the ocean. The spill contaminated the marine ecosystem. Efforts were made to clean up the spill.",
+      "rewritten_content": "What were the long-term effects of the major oil spill in the ocean, which contaminated the marine ecosystem, despite efforts made to clean it up?"
+    },
+    {
+      "content": "How did it affect international relations?",
+      "context": "A political crisis erupted in a major country. The crisis involved a conflict with a neighboring country. The international community expressed concern.",
+      "rewritten_content": "How did the political crisis that erupted in a major country, involving a conflict with a neighboring country and eliciting concern from the international community, affect international relations?"
+    },
+    {
+      "content": "What were the key factors that led to its success?",
+      "context": "A new business venture was launched. The venture quickly became profitable. The venture's success was attributed to several factors.",
+      "rewritten_content": "What were the key factors that led to the success of the new business venture, which quickly became profitable?"
+    },
+    {
+      "content": "How did it change people's lives?",
+      "context": "A new invention was introduced. The invention made everyday tasks easier. The invention became widely popular.",
+      "rewritten_content": "How did the introduction of the new invention, which made everyday tasks easier and became widely popular, change people's lives?"
+    },
+    {
+      "content": "What were the limitations of the study?",
+      "context": "Researchers conducted a study on a complex social issue. The study's findings were published in a peer-reviewed journal. The study had some limitations.",
+      "rewritten_content": "What were the limitations of the study conducted by researchers on a complex social issue, whose findings were published in a peer-reviewed journal?"
+    },
+    {
+      "content": "How did it impact the arts and culture scene?",
+      "context": "A major cultural event took place. The event featured performances by renowned artists. The event attracted a large audience.",
+      "rewritten_content": "How did the major cultural event, which featured performances by renowned artists and attracted a large audience, impact the arts and culture scene?"
+    },
+    {
+      "content": "What were the ethical dilemmas faced by the decision-makers?",
+      "context": "A complex ethical issue arose. The issue involved conflicting values. Decision-makers had to weigh the pros and cons carefully.",
+      "rewritten_content": "What were the ethical dilemmas faced by the decision-makers who had to carefully weigh the pros and cons of the complex ethical issue involving conflicting values?"
+    },
+    {
+      "content": "How did it contribute to the advancement of knowledge?",
+      "context": "A scientific breakthrough was achieved. The breakthrough expanded our understanding of the universe. The breakthrough had implications for various fields of study.",
+      "rewritten_content": "How did the scientific breakthrough, which expanded our understanding of the universe, contribute to the advancement of knowledge across various fields of study?"
+    },
+    {
+      "content": "What were the potential benefits and drawbacks?",
+      "context": "A new policy proposal was put forward. The proposal aimed to address a pressing social problem. The proposal had both supporters and opponents.",
+      "rewritten_content": "What were the potential benefits and drawbacks of the new policy proposal put forward to address a pressing social problem, considering the perspectives of both its supporters and opponents?"
+    },
+    {
+      "content": "How did it affect the lives of ordinary people?",
+      "context": "A major political upheaval occurred. The upheaval resulted in a change of government. The upheaval had a profound impact on society.",
+      "rewritten_content": "How did the major political upheaval, which resulted in a change of government and had a profound impact on society, affect the lives of ordinary people?"
+    },
+    {
+      "content": "What were the challenges and opportunities presented by the situation?",
+      "context": "A global economic crisis unfolded. The crisis affected countries around the world. Governments and businesses had to adapt to the new reality.",
+      "rewritten_content": "What were the challenges and opportunities presented by the global economic crisis that unfolded and affected countries around the world, forcing governments and businesses to adapt to the new reality?"
+    },
+    {
+      "content": "How did it shape the course of human history?",
+      "context": "A significant historical event took place. The event had far-reaching consequences. The event is still studied and debated today.",
+      "rewritten_content": "How did the significant historical event, which had far-reaching consequences and continues to be studied and debated today, shape the course of human history?"
+    },
+    {
+      "content": "What were the social and cultural norms of the time?",
+      "context": "A historical period is being examined. The period was marked by unique customs and beliefs. Historians have studied the social and cultural norms of the period.",
+      "rewritten_content": "What were the social and cultural norms of the historical period being examined, which was marked by unique customs and beliefs and has been studied by historians?"
+    },
+    {
+      "content": "Did it lead to any technological advancements?",
+      "context": "A major scientific discovery was made. The discovery led to new inventions and innovations. The discovery had a transformative effect on society.",
+      "rewritten_content": "Did the major scientific discovery, which led to new inventions and innovations and had a transformative effect on society, lead to any technological advancements?"
+    },
+    {
+      "content": "What were the environmental challenges faced by the community?",
+      "context": "A community lived in a harsh environment. The environment posed various challenges. The community had to adapt to survive.",
+      "rewritten_content": "What were the environmental challenges faced by the community that lived in a harsh environment and had to adapt to survive?"
+    },
+    {
+      "content": "How did it contribute to the development of new industries?",
+      "context": "A technological innovation emerged. The innovation created new possibilities. The innovation led to the emergence of new industries.",
+      "rewritten_content": "How did the technological innovation, which created new possibilities, contribute to the development of new industries?"
+    },
+    {
+      "content": "What were the key features of the political system?",
+      "context": "A historical civilization is being studied. The civilization had a complex political system. The system influenced the civilization's development.",
+      "rewritten_content": "What were the key features of the complex political system of the historical civilization being studied, considering its influence on the civilization's development?"
+    },
+    {
+      "content": "Did it lead to any changes in social class structure?",
+      "context": "A major social revolution took place. The revolution challenged existing hierarchies. The revolution had a profound impact on society.",
+      "rewritten_content": "Did the major social revolution, which challenged existing hierarchies and had a profound impact on society, lead to any changes in social class structure?"
+    },
+    {
+      "content": "What were the philosophical and religious beliefs of the people?",
+      "context": "A historical society is being investigated. The society had a rich intellectual and spiritual life. The society's beliefs shaped its worldview.",
+      "rewritten_content": "What were the philosophical and religious beliefs of the historical society being investigated, considering their rich intellectual and spiritual life and the influence of these beliefs on their worldview?"
+    },
+    {
+      "content": "How did it affect the development of art and literature?",
+      "context": "A major historical event occurred. The event inspired artists and writers. The event's impact on art and literature was significant.",
+      "rewritten_content": "How did the major historical event, which inspired artists and writers, affect the development of art and literature, considering its significant impact?"
+    },
+    {
+      "content": "What were the economic and social challenges faced by the country?",
+      "context": "A developing country is being analyzed. The country faced numerous obstacles to development. The country sought to overcome these challenges.",
+      "rewritten_content": "What were the economic and social challenges faced by the developing country being analyzed, which sought to overcome these obstacles to development?"
+    },
+    {
+      "content": "How did it contribute to the growth of international trade?",
+      "context": "A new trade agreement was signed. The agreement reduced trade barriers. The agreement facilitated the expansion of global commerce.",
+      "rewritten_content": "How did the signing of the new trade agreement, which reduced trade barriers, contribute to the growth of international trade by facilitating the expansion of global commerce?"
+    },
+    {
+      "content": "What were the key events that led to the conflict?",
+      "context": "A major war broke out between two countries. The war had devastating consequences. Historians have studied the causes of the war.",
+      "rewritten_content": "What were the key events that led to the outbreak of the major war between the two countries, which had devastating consequences and whose causes have been studied by historians?"
+    },
+    {
+      "content": "How did it impact the lives of women and minorities?",
+      "context": "A social movement emerged to fight for equal rights. The movement challenged discriminatory practices. The movement achieved some success.",
+      "rewritten_content": "How did the emergence of the social movement to fight for equal rights, which challenged discriminatory practices and achieved some success, impact the lives of women and minorities?"
+    },
+    {
+      "content": "What were the environmental consequences of industrialization?",
+      "context": "The Industrial Revolution transformed society. The revolution brought about technological advancements. The revolution also had environmental consequences.",
+      "rewritten_content": "What were the environmental consequences of the Industrial Revolution, which transformed society through technological advancements?"
+    },
+    {
+      "content": "How did it influence the development of democracy?",
+      "context": "A series of political reforms were implemented. The reforms expanded political participation. The reforms strengthened democratic institutions.",
+      "rewritten_content": "How did the implementation of a series of political reforms, which expanded political participation and strengthened democratic institutions, influence the development of democracy?"
+    },
+    {
+      "content": "What were the main causes of the economic depression?",
+      "context": "A severe economic depression occurred. The depression caused widespread hardship. Economists have studied the causes of the depression.",
+      "rewritten_content": "What were the main causes of the severe economic depression that occurred and caused widespread hardship, as studied by economists?"
+    },
+    {
+      "content": "How did it affect the relationship between humans and nature?",
+      "context": "A major technological innovation was introduced. The innovation altered the way humans interacted with the natural world. The innovation had both positive and negative consequences.",
+      "rewritten_content": "How did the introduction of the major technological innovation, which altered the way humans interacted with the natural world and had both positive and negative consequences, affect the relationship between humans and nature?"
+    },
+    {
+      "content": "What were the key characteristics of the artistic movement?",
+      "context": "A new artistic movement emerged. The movement challenged conventional artistic norms. The movement's influence was felt across various art forms.",
+      "rewritten_content": "What were the key characteristics of the new artistic movement that emerged, challenged conventional artistic norms, and whose influence was felt across various art forms?"
+    },
+    {
+      "content": "Did it lead to any significant social or political changes?",
+      "context": "A major cultural event took place. The event sparked public debate and discussion. The event's impact on society was debated.",
+      "rewritten_content": "Did the major cultural event that took place, sparked public debate and discussion, and whose impact on society was debated, lead to any significant social or political changes?"
+    },
+    {
+      "content": "What were the ethical implications of the scientific discovery?",
+      "context": "Scientists made a groundbreaking discovery. The discovery raised ethical questions about its potential applications. The discovery sparked a public debate.",
+      "rewritten_content": "What were the ethical implications of the groundbreaking scientific discovery made by scientists, which raised ethical questions about its potential applications and sparked a public debate?"
+    },
+    {
+      "content": "How did it contribute to the development of new technologies?",
+      "context": "A fundamental scientific principle was discovered. The principle had numerous practical applications. The principle led to the development of new technologies.",
+      "rewritten_content": "How did the discovery of the fundamental scientific principle, which had numerous practical applications, contribute to the development of new technologies?"
+    },
+    {
+      "content": "What were the challenges faced by the explorers in their journey?",
+      "context": "A group of explorers embarked on a daring expedition. The expedition took them to uncharted territories. The explorers faced numerous challenges.",
+      "rewritten_content": "What were the challenges faced by the group of explorers who embarked on a daring expedition to uncharted territories?"
+    },
+    {
+      "content": "How did it shape the future of space exploration?",
+      "context": "A major milestone in space exploration was achieved. The milestone opened up new possibilities for future missions. The milestone inspired a new generation of scientists and engineers.",
+      "rewritten_content": "How did the achievement of the major milestone in space exploration, which opened up new possibilities for future missions and inspired a new generation of scientists and engineers, shape the future of space exploration?"
+    },
+    {
+      "content": "What were the social and economic impacts of the pandemic?",
+      "context": "A global pandemic swept the world. The pandemic caused widespread illness and death. The pandemic had a profound impact on society and the economy.",
+      "rewritten_content": "What were the social and economic impacts of the global pandemic that swept the world, causing widespread illness and death and having a profound impact on society and the economy?"
+    }
+  ]
+  

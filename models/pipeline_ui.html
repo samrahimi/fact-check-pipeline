@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipeline Builder</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+        #palette, #pipeline {
+            flex: 1;
+            padding: 20px;
+            border: 1px solid #3a3a3a;
+            overflow-y: auto;
+            background-color: #252525;
+        }
+        .block {
+            background-color: #2a2a2a;
+            border: 1px solid #3a3a3a;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            cursor: move;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .block:hover {
+            background-color: #303030;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .block h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #4a9eff;
+        }
+        .block-buttons {
+            display: flex;
+            gap: 5px;
+        }
+        .block-button {
+            cursor: pointer;
+            padding: 2px 8px;
+            background-color: #3a3a3a;
+            border: 1px solid #4a4a4a;
+            border-radius: 3px;
+            color: #e0e0e0;
+            transition: all 0.3s ease;
+        }
+        .block-button:hover {
+            background-color: #4a4a4a;
+        }
+        .config-field {
+            margin-bottom: 15px;
+        }
+        .config-field label {
+            display: block;
+            margin-bottom: 5px;
+            color: #b0b0b0;
+        }
+        .config-field input, .config-field textarea {
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            background-color: #3a3a3a;
+            border: 1px solid #4a4a4a;
+            border-radius: 3px;
+            color: #e0e0e0;
+            transition: all 0.3s ease;
+        }
+        .config-field input:focus, .config-field textarea:focus {
+            outline: none;
+            border-color: #4a9eff;
+            box-shadow: 0 0 0 2px rgba(74, 158, 255, 0.2);
+        }
+        .config-field textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        .palette-block {
+            cursor: pointer;
+        }
+        .minimized {
+            height: auto;
+            overflow: hidden;
+        }
+        .minimized .config-field {
+            display: none;
+        }
+        #save-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #4a9eff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        #copy-button {
+            position: fixed;
+            bottom: 20px;
+            right: 200px;
+            padding: 10px 20px;
+            background-color: #021c3a;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        #save-button:hover {
+            background-color: #3a8eef;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .dragging {
+            opacity: 0.5;
+        }
+        .drop-indicator {
+            border-top: 2px solid #4a9eff;
+        }
+        h2 {
+            color: #4a9eff;
+            border-bottom: 1px solid #3a3a3a;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+    </style> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="palette">
+        <h2>Palette</h2>
+    </div>
+    <div id="pipeline">
+        <h2>Pipeline</h2>
+    </div>
+    <button id="save-button">Save to Models</button>
+    <button id="copy-button">Copy to Clipboard</button>
+
+    <script src="blocks.js"></script>
+    <script>
+        let pipelineBlocks = [];
+
+        function createBlockElement(block, isPalette = true) {
+            let blockEl = $('<div>').addClass(isPalette ? 'block palette-block' : 'block');
+            let titleEl = $('<h3>').text(block.name);
+
+            if (!isPalette) {
+                let buttonsEl = $('<div>').addClass('block-buttons');
+                let minimizeBtn = $('<span>').addClass('block-button minimize-btn').text('−').attr('title', 'Minimize').click(function(e) {
+                    e.stopPropagation();
+                    toggleMinimize(blockEl);
+                });
+                let deleteBtn = $('<span>').addClass('block-button delete-btn').text('×').attr('title', 'Delete').click(function(e) {
+                    e.stopPropagation();
+                    deleteBlock(block.name);
+                });
+                let moveUpBtn = $('<span>').addClass('block-button move-up-btn').text('↑').attr('title', 'Move Up').click(function(e) {
+                    e.stopPropagation();
+                    moveBlockUp(block.name);
+                });
+                let moveDownBtn = $('<span>').addClass('block-button move-down-btn').text('↓').attr('title', 'Move Down').click(function(e) {
+                    e.stopPropagation();
+                    moveBlockDown(block.name);
+                });
+                buttonsEl.append(minimizeBtn, deleteBtn, moveUpBtn, moveDownBtn);
+                titleEl.append(buttonsEl);
+            }
+
+            blockEl.append(titleEl);
+
+            if (!isPalette) {
+                $.each(block.config, function(key, value) {
+                    if (key === 'f') return;
+                    let fieldEl = $('<div>').addClass('config-field');
+                    let inputEl = (key === 'system_prompt' || key === 'user_prompt') ?
+                        $('<textarea>').attr('id', `${block.name}-${key}`).val(value) :
+                        $('<input>').attr({ type: 'text', id: `${block.name}-${key}`, value: value });
+                    fieldEl.append($('<label>').attr('for', `${block.name}-${key}`).text(`${key}:`), inputEl);
+                    blockEl.append(fieldEl);
+                });
+            }
+
+            if (isPalette) {
+                blockEl.click(() => addBlockToPipeline(block.name));
+            }
+
+            return blockEl;
+        }
+
+        function toggleMinimize(blockEl) {
+            blockEl.toggleClass('minimized');
+            blockEl.find('.minimize-btn').text(blockEl.hasClass('minimized') ? '+' : '−');
+        }
+
+        function deleteBlock(blockName) {
+            pipelineBlocks = pipelineBlocks.filter(b => b.name !== blockName);
+            renderPipeline();
+        }
+
+        function moveBlockUp(blockName) {
+            let index = pipelineBlocks.findIndex(b => b.name === blockName);
+            if (index > 0) {
+                let temp = pipelineBlocks[index];
+                pipelineBlocks[index] = pipelineBlocks[index - 1];
+                pipelineBlocks[index - 1] = temp;
+                renderPipeline();
+            }
+        }
+
+        function moveBlockDown(blockName) {
+            let index = pipelineBlocks.findIndex(b => b.name === blockName);
+            if (index < pipelineBlocks.length - 1) {
+                let temp = pipelineBlocks[index];
+                pipelineBlocks[index] = pipelineBlocks[index + 1];
+                pipelineBlocks[index + 1] = temp;
+                renderPipeline();
+            }
+        }
+
+        function initializePalette() {
+            $.each(__blocks.pipeline_blocks, function(index, block) {
+                $('#palette').append(createBlockElement(block));
+            });
+        }
+
+        function addBlockToPipeline(blockName) {
+            const blocks = window.load().pipeline_blocks;
+            const block = JSON.parse(JSON.stringify(blocks.find(b => b.name === blockName)));
+            pipelineBlocks.push(block);
+            renderPipeline();
+        }
+
+        function renderPipeline() {
+            $('#pipeline').empty().append('<h2>Pipeline</h2>');
+            $.each(pipelineBlocks, function(index, block) {
+                $('#pipeline').append(createBlockElement(block, false));
+            });
+        }
+
+
+        function dragStart(e) {
+            e.originalEvent.dataTransfer.setData('text/plain', $(this).find('h3').text());
+            $(this).addClass('dragging');
+        }
+
+        function dragEnd(e) {
+            $(this).removeClass('dragging');
+        }
+
+        function getDragAfterElement(container, y) {
+            let draggableElements = $(container).find('.block:not(.dragging)');
+            let result = null;
+            let closestOffset = Number.NEGATIVE_INFINITY;
+
+            draggableElements.each(function() {
+                let box = $(this)[0].getBoundingClientRect();
+                let offset = y - box.top - box.height / 2;
+                if (offset < 0 && offset > closestOffset) {
+                    closestOffset = offset;
+                    result = $(this);
+                }
+            });
+
+            return result;
+        }
+
+        $('#pipeline').on('dragover', function(e) {
+            e.preventDefault();
+            let afterElement = getDragAfterElement(this, e.originalEvent.clientY);
+            let draggable = $('.dragging');
+            if (afterElement === null) {
+                $(this).append(draggable);
+            } else {
+                draggable.insertBefore(afterElement);
+            }
+        }).on('drop', function(e) {
+            e.preventDefault();
+            let draggedBlockName = e.originalEvent.dataTransfer.getData('text');
+            let blocks = $(this).find('.block');
+            let newOrder = blocks.map(function() { return $(this).find('h3').text(); }).get();
+            pipelineBlocks = newOrder.map(name => pipelineBlocks.find(b => b.name === name));
+            renderPipeline();
+        }).on('change', 'input, textarea', function(e) {
+            let [blockName, field] = $(this).attr('id').split('-');
+            let block = pipelineBlocks.find(b => b.name === blockName);
+            if (block) {
+                block.config[field] = $(this).val();
+            }
+        });
+
+        function updateClipboard(newClip) {
+            navigator.clipboard.writeText(newClip).then(
+                () => { alert("COPIED"); },
+                () => { /* clipboard write failed */ }
+            );
+        }
+
+        $('#save-button').click(saveToModels);
+        $('#copy-button').click(function(e) {
+            navigator.permissions.query({ name: "clipboard-write" }).then((result) => {
+                if (result.state === "granted" || result.state === "prompt") {
+                    updateClipboard(JSON.stringify(pipelineBlocks, null, 2));
+                }
+            });
+        });
+
+        function saveToModels() {
+            const pipelineName = prompt('Enter a name for this pipeline:');
+            if (pipelineName) {
+                const pipelineContent = `
+const ${pipelineName} = {
+    pipeline_blocks: ${JSON.stringify(pipelineBlocks, null, 2)}
+};
+module.exports = ${pipelineName};
+                `.trim();
+
+                const blob = new Blob([pipelineContent], { type: 'text/javascript' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `${pipelineName}.js`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }
+        }
+
+        initializePalette();
+    </script>
+</body>
+</html>
