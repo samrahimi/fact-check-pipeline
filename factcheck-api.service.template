@@ -1,0 +1,16 @@
+[Unit]
+Description=Fact Check API Server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Environment=PORT=2222
+WorkingDirectory=WORKING_DIR_PLACEHOLDER
+ExecStart=/usr/bin/node api.js
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+
